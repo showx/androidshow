@@ -1,0 +1,54 @@
+[
+  {
+    "name": "apktool",
+    "description": "APK 反编译 / 回编译（资源与 smali）",
+    "version": "3.0.3",
+    "kind": "jar",
+    "requires_java": 11,
+    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar",
+    "filename": "apktool.jar"
+  },
+  {
+    "name": "jadx",
+    "description": "DEX / APK Java 反编译（命令行）",
+    "version": "1.5.6",
+    "kind": "zip",
+    "requires_java": 11,
+    "url": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip",
+    "filename": "jadx.zip",
+    "bin_unix": "bin/jadx",
+    "bin_windows": "bin/jadx.bat"
+  },
+  {
+    "name": "bundletool",
+    "description": "AAB 拆包、转 APK、安装到设备",
+    "version": "1.18.3",
+    "kind": "jar",
+    "requires_java": 11,
+    "url": "https://github.com/google/bundletool/releases/download/1.18.3/bundletool-all-1.18.3.jar",
+    "filename": "bundletool.jar"
+  },
+  {
+    "name": "aapt",
+    "description": "查看 APK 包名、版本、资源（Android SDK Build-Tools）",
+    "version": "35.0.0",
+    "kind": "zip",
+    "platforms": {
+      "windows": {
+        "url": "https://dl.google.com/android/repository/build-tools_r35_windows.zip",
+        "filename": "build-tools_r35_windows.zip",
+        "bin": "aapt.exe"
+      },
+      "linux": {
+        "url": "https://dl.google.com/android/repository/build-tools_r35_linux.zip",
+        "filename": "build-tools_r35_linux.zip",
+        "bin": "aapt"
+      },
+      "macos": {
+        "url": "https://dl.google.com/android/repository/build-tools_r35_macosx.zip",
+        "filename": "build-tools_r35_macosx.zip",
+        "bin": "aapt"
+      }
+    }
+  }
+]
